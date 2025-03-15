@@ -68,7 +68,7 @@ suite('Unit Tests', () => {
         test("8- [Mr.] to Brit.Eng.", () => {
             assert.equal(
                 translator.translate("No Mr. Bond, I expect you to die.", "american"),
-                "No <span class=\"highlight\">mr</span> Bond, I expect you to die."
+                "No <span class=\"highlight\">Mr</span> Bond, I expect you to die."
             );
         });
 
@@ -76,7 +76,7 @@ suite('Unit Tests', () => {
         test("9- [Dr.] to Brit.Eng.", () => {
             assert.equal(
                 translator.translate("Dr. Grosh will see you now.", "american"),
-                "<span class=\"highlight\">dr</span> Grosh will see you now."
+                "<span class=\"highlight\">Dr</span> Grosh will see you now."
             );
         });
 
